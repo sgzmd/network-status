@@ -6,6 +6,10 @@ but practically can be used on any host that runs Linux (or WSL2 for that matter
 
 ## Usage
 
+You can of course build the binary using `go build` or `go run` commands, but there is a helpful
+script aptly named `build.sh` that will build binaries for multiple architecture for you, and apply
+`upx` compression to the binary. You can run it like this:
+
 ```bash
 
 # Let's build the binary first (or you can go run it directly)
