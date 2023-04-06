@@ -6,6 +6,8 @@ sudo go run main.go -count 5 -max-latency 150 google.com yahoo.com 8.8.8.8
 
 It will check that the hosts are reachable and that the average latency is less than 150 ms.
 If the average latency is more than 150 ms, or some hosts are unreachable it will exit with a non-zero exit code.
+
+See README.md for more details.
 */
 
 package main
